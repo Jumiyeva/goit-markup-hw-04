@@ -351,6 +351,36 @@ body{
 }
 
 
+.clients-list{
+    display: flex;
+    justify-content: center;
+}
+
+.clients-item{
+   width: 106px;
+   height: 60px;
+   margin-right: 30px;
+}
+
+.clients-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-white-color);
+}  
+
+.clients-icon{
+    fill: #AFB1B8;
+}
+
+.clients-icon:hover, .clients-icon:focus{
+    fill: var(--accent-color);
+}
+
 /* /* footer */
 .address{
     font-style: normal;
