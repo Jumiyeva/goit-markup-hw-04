@@ -154,11 +154,17 @@ body{
     margin-right: 10px;
 }
 
-.mail-icon:hover, .mail-icon:focus{
+.link-contacts:hover, .link-contacts:focus{
+    color: var(--accent-color);
+}
+
+.link-contacts:hover .mail-icon,
+.link-contacts:focus .mail-icon{
     fill: var(--accent-color);
 }
 
-.phone-icon:hover, .phone-icon:focus{
+.link-contacts:hover .phone-icon,
+.link-contacts:focus .phone-icon{
     fill: var(--accent-color);
 }
 
@@ -168,16 +174,6 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.link-contacts:hover, 
-.link-contacts:focus{
-    color: var(--accent-color);
-}
-
-.link-menu:hover,
-.link-menu:focus{
-    color: var(--accent-color);
 }
 
 /* --------Heroy-------------*/
@@ -233,12 +229,6 @@ body{
     letter-spacing: 0.06em;
 }
 
-/* .filter .button{
-    color: var(--primary-white-color);
-    background-color: var(--accent-color) ;
-    cursor: pointer;
-} */
-
 /* ОСОБЕННОСТИ */
 
 .title-icons{
@@ -251,18 +241,6 @@ body{
     background: #F5F4FA;
     border-radius: 4px;
 }
-
-
-/* .title-section-icon-link{
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    background: #F5F4FA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-} */
 
 .peculiarities-list{
     display: flex;
@@ -384,7 +362,7 @@ body{
 }
 
 .social-icon{
-    fill: var(--primary-text-color);
+    fill: #AFB1B8;
 }
 
 .social-link{
@@ -401,7 +379,8 @@ body{
     background-color: var(--accent-color);
 }
 
-.social-icon:hover, .social-icon:focus{
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
     fill: var(--primary-white-color);
 }
 
@@ -439,7 +418,8 @@ body{
     border: 1px solid var(--accent-color);
 }
 
-.clients-icon:hover, .clients-icon:focus{
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon{
     fill: var(--accent-color);
 }
 
@@ -556,7 +536,8 @@ body{
     background-color: var(--accent-color);
 }
 
-.footer-social-icon:hover, .footer-social-icon:focus{
+.footer-social-link:hover .footer-social-icon 
+.footer-social-link:focus .footer-social-icon{
     fill: var(--primary-white-color);
 }
 
