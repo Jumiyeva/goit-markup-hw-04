@@ -105,6 +105,11 @@ body{
     margin-right: 50px;
 }
 
+.header-item .link:hover,
+.header-item .link:focus {
+    color: var(--accent-color);
+}    
+
 .header .menu{
     font-weight: 500;
     font-size: 14px;
